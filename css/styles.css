@@ -1,0 +1,22 @@
+html {
+    overflow-y: auto; /* Show/Hide scrollbars automatically */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; /*Overrides default font*/
+}
+
+::selection {
+    background: #00FF00; /* WebKit/Blink Browsers */
+    color: #FFFFFF;
+}
+::-moz-selection {
+    background: #00FF00; /* Gecko Browsers */
+    color: #FFFFFF;
+}
+
+#home-section {
+  background-color: F8F8F8;
+  background-image: url("../images/computer-device-electronics-872958-min.jpg");
+  background-size: cover;
+}
